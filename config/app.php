@@ -173,6 +173,7 @@ return [
         */
         Backpack\Base\BaseServiceProvider::class,
         Backpack\CRUD\CrudServiceProvider::class,
+        Backpack\PermissionManager\PermissionManagerServiceProvider::class,
 
 
         /*
