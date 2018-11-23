@@ -17,7 +17,7 @@ class CreateVisitsTable extends Migration
             $table->ipaddress('ip');
             $table->integer('route_id')->unsigned();
             $table->text('http_headers');
-            $table->string('http_user_agent');
+            $table->string('http_user_agent', 1000);
             $table->string('http_referer')->nullable();
             $table->timestamps();
         });
